@@ -667,7 +667,6 @@ S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\bin\D
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\bin\Debug\Interop.VDProLib5.dll
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\bin\Debug\AxInterop.VDProLib5.dll
-S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.vbprojAssemblyReference.cache
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.exe.config
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\Interop.VDProLib5.dll
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\AxInterop.VDProLib5.dll

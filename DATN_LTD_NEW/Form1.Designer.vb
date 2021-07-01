@@ -58,17 +58,16 @@
         Me.RibbonPageGroup3 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage3 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup5 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.RibbonPageGroup12 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.panel = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.ribbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -306,7 +305,7 @@
         '
         'RibbonPage3
         '
-        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup5, Me.RibbonPageGroup12})
+        Me.RibbonPage3.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup5})
         Me.RibbonPage3.ImageOptions.SvgImage = CType(resources.GetObject("RibbonPage3.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.RibbonPage3.Name = "RibbonPage3"
         Me.RibbonPage3.Text = "Thiết Kế Cọc"
@@ -316,12 +315,6 @@
         Me.RibbonPageGroup5.ItemLinks.Add(Me.btn_kiemtracoc)
         Me.RibbonPageGroup5.Name = "RibbonPageGroup5"
         Me.RibbonPageGroup5.Text = "RibbonPageGroup5"
-        '
-        'RibbonPageGroup12
-        '
-        Me.RibbonPageGroup12.ItemLinks.Add(Me.BarButtonItem12)
-        Me.RibbonPageGroup12.Name = "RibbonPageGroup12"
-        Me.RibbonPageGroup12.Text = "RibbonPageGroup12"
         '
         'Panel1
         '
@@ -348,6 +341,50 @@
         Me.panel.Name = "panel"
         Me.panel.Size = New System.Drawing.Size(1231, 557)
         Me.panel.TabIndex = 2
+        '
+        'Label6
+        '
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(677, 164)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(205, 25)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = " Lớp :      61TH1  "
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label5
+        '
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(677, 198)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(222, 25)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = " Mssv :    1508861 "
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label4
+        '
+        Me.Label4.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(676, 131)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(401, 25)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Sinh Viên Thực Hiện : Lê Tuấn Dương"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(676, 98)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(519, 25)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Giảng Viên Hướng Dẫn : TS. Dương Diệp Thúy"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
@@ -392,50 +429,6 @@
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
-        '
-        'Label3
-        '
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(676, 98)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(519, 25)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Giảng Viên Hướng Dẫn : TS. Dương Diệp Thúy"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label4
-        '
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(676, 131)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(401, 25)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Sinh Viên Thực Hiện : Lê Tuấn Dương"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label5
-        '
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(677, 198)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(222, 25)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = " Mssv :    1508861 "
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label6
-        '
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(677, 164)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(205, 25)
-        Me.Label6.TabIndex = 6
-        Me.Label6.Text = " Lớp :      61TH1  "
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Form1
         '
@@ -492,7 +485,6 @@
     Friend WithEvents btn_kiemtracoc As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem12 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem13 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents RibbonPageGroup12 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
     Friend WithEvents btn_dulieudai As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BarButtonItem14 As DevExpress.XtraBars.BarButtonItem

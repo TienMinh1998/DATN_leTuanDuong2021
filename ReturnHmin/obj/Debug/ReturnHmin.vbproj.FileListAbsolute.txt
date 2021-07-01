@@ -18,3 +18,13 @@ S:\DATN_LTD_NEW\ReturnHmin\obj\Debug\ReturnHmin.vbproj.CoreCompileInputs.cache
 S:\DATN_LTD_NEW\ReturnHmin\obj\Debug\ReturnHmin.dll
 S:\DATN_LTD_NEW\ReturnHmin\obj\Debug\ReturnHmin.xml
 S:\DATN_LTD_NEW\ReturnHmin\obj\Debug\ReturnHmin.pdb
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\bin\Debug\ReturnHmin.dll
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\bin\Debug\ReturnHmin.pdb
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\bin\Debug\ReturnHmin.xml
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.vbprojAssemblyReference.cache
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.Resources.resources
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.vbproj.GenerateResource.cache
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.vbproj.CoreCompileInputs.cache
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.dll
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.xml
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\ReturnHmin\obj\Debug\ReturnHmin.pdb
