@@ -35,6 +35,9 @@
             lb_thongbao.Text = "Giá Trị Nhập không hợp lệ!!"
             lb_thongbao.ForeColor = Color.Red
         End If
+        ' reload lai Frm botricoc
+        Botricoc_View.Instance.reloadCHieuSauChonMong()
+
     End Sub
 
     Private Sub view_chonchieusauhm_Load(sender As Object, e As EventArgs) Handles MyBase.Load

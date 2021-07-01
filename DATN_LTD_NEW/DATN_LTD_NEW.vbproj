@@ -224,12 +224,6 @@
     <Compile Include="View\RM_Kiemtradai.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Frm_BanVe.Designer.vb">
-      <DependentUpon>Frm_BanVe.vb</DependentUpon>
-    </Compile>
-    <Compile Include="View\Frm_BanVe.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="View\Nhaplieucoc_view.Designer.vb">
       <DependentUpon>Nhaplieucoc_view.vb</DependentUpon>
     </Compile>
@@ -292,9 +286,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\RM_Kiemtradai.resx">
       <DependentUpon>RM_Kiemtradai.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Frm_BanVe.resx">
-      <DependentUpon>Frm_BanVe.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Nhaplieucoc_view.resx">
       <DependentUpon>Nhaplieucoc_view.vb</DependentUpon>

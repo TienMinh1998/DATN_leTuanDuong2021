@@ -26,7 +26,6 @@ Partial Class FRM_tinhthepdai
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.BunifuGradientPanel1 = New Bunifu.Framework.UI.BunifuGradientPanel()
-        Me.btn_luu = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txtkcx = New System.Windows.Forms.TextBox()
         Me.cbbdkthepx = New System.Windows.Forms.ComboBox()
@@ -40,7 +39,6 @@ Partial Class FRM_tinhthepdai
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtAs1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btn_tinh = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtkcy = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -56,15 +54,15 @@ Partial Class FRM_tinhthepdai
         Me.Label8 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.BunifuGradientPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -98,9 +96,7 @@ Partial Class FRM_tinhthepdai
         '
         Me.BunifuGradientPanel1.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel1.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuGradientPanel1.Controls.Add(Me.btn_luu)
         Me.BunifuGradientPanel1.Controls.Add(Me.GroupBox1)
-        Me.BunifuGradientPanel1.Controls.Add(Me.btn_tinh)
         Me.BunifuGradientPanel1.Controls.Add(Me.GroupBox2)
         Me.BunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(127, Byte), Integer))
         Me.BunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White
@@ -111,19 +107,6 @@ Partial Class FRM_tinhthepdai
         Me.BunifuGradientPanel1.Quality = 10
         Me.BunifuGradientPanel1.Size = New System.Drawing.Size(508, 358)
         Me.BunifuGradientPanel1.TabIndex = 23
-        '
-        'btn_luu
-        '
-        Me.btn_luu.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btn_luu.Image = CType(resources.GetObject("btn_luu.Image"), System.Drawing.Image)
-        Me.btn_luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_luu.Location = New System.Drawing.Point(265, 286)
-        Me.btn_luu.Name = "btn_luu"
-        Me.btn_luu.Size = New System.Drawing.Size(75, 32)
-        Me.btn_luu.TabIndex = 26
-        Me.btn_luu.Text = "Lưu"
-        Me.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_luu.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
@@ -251,19 +234,6 @@ Partial Class FRM_tinhthepdai
         Me.Label1.Size = New System.Drawing.Size(63, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "As yêu cầu:"
-        '
-        'btn_tinh
-        '
-        Me.btn_tinh.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btn_tinh.Image = CType(resources.GetObject("btn_tinh.Image"), System.Drawing.Image)
-        Me.btn_tinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_tinh.Location = New System.Drawing.Point(173, 286)
-        Me.btn_tinh.Name = "btn_tinh"
-        Me.btn_tinh.Size = New System.Drawing.Size(75, 32)
-        Me.btn_tinh.TabIndex = 27
-        Me.btn_tinh.Text = "Tính"
-        Me.btn_tinh.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_tinh.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -422,60 +392,16 @@ Partial Class FRM_tinhthepdai
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Hướng Dẫn"
         '
-        'Label15
+        'Label21
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.Green
-        Me.Label15.Location = New System.Drawing.Point(13, 70)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(277, 13)
-        Me.Label15.TabIndex = 0
-        Me.Label15.Text = "-As theo phươn X và Y là các kết quả tính toán"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.Green
-        Me.Label16.Location = New System.Drawing.Point(17, 100)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(235, 13)
-        Me.Label16.TabIndex = 0
-        Me.Label16.Text = "-Chọn số Thanh Thép ở Mục Chọn Thép"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.Green
-        Me.Label17.Location = New System.Drawing.Point(13, 132)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(248, 13)
-        Me.Label17.TabIndex = 0
-        Me.Label17.Text = "- Kết quả KC sẽ tự nhảy Theo số liệu chọn"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(17, 171)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(143, 13)
-        Me.Label18.TabIndex = 0
-        Me.Label18.Text = "Bước 2 : Chọn Phi Thép"
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Green
-        Me.Label19.Location = New System.Drawing.Point(64, 200)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(177, 13)
-        Me.Label19.TabIndex = 0
-        Me.Label19.Text = "2.1 : Ấn Chuột Chọn Phi Thép"
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Green
+        Me.Label21.Location = New System.Drawing.Point(64, 262)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(230, 13)
+        Me.Label21.TabIndex = 0
+        Me.Label21.Text = "2.3 : Chỉnh Giá Trị As Gần Với Yêu Cầu"
         '
         'Label20
         '
@@ -488,16 +414,16 @@ Partial Class FRM_tinhthepdai
         Me.Label20.TabIndex = 0
         Me.Label20.Text = "2.2 : Giá Trị As chọn Sẽ nhảy"
         '
-        'Label21
+        'Label19
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.Green
-        Me.Label21.Location = New System.Drawing.Point(64, 262)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(230, 13)
-        Me.Label21.TabIndex = 0
-        Me.Label21.Text = "2.3 : Chỉnh Giá Trị As Gần Với Yêu Cầu"
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Green
+        Me.Label19.Location = New System.Drawing.Point(64, 200)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(177, 13)
+        Me.Label19.TabIndex = 0
+        Me.Label19.Text = "2.1 : Ấn Chuột Chọn Phi Thép"
         '
         'Label22
         '
@@ -520,6 +446,50 @@ Partial Class FRM_tinhthepdai
         Me.Label23.Size = New System.Drawing.Size(170, 13)
         Me.Label23.TabIndex = 0
         Me.Label23.Text = "Bước 1 : Chọn số thanh thép"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label18.Location = New System.Drawing.Point(17, 171)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(143, 13)
+        Me.Label18.TabIndex = 0
+        Me.Label18.Text = "Bước 2 : Chọn Phi Thép"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.Green
+        Me.Label17.Location = New System.Drawing.Point(13, 132)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(248, 13)
+        Me.Label17.TabIndex = 0
+        Me.Label17.Text = "- Kết quả KC sẽ tự nhảy Theo số liệu chọn"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.Color.Green
+        Me.Label16.Location = New System.Drawing.Point(17, 100)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(235, 13)
+        Me.Label16.TabIndex = 0
+        Me.Label16.Text = "-Chọn số Thanh Thép ở Mục Chọn Thép"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Green
+        Me.Label15.Location = New System.Drawing.Point(13, 70)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(277, 13)
+        Me.Label15.TabIndex = 0
+        Me.Label15.Text = "-As theo phươn X và Y là các kết quả tính toán"
         '
         'FRM_tinhthepdai
         '
@@ -550,7 +520,6 @@ Partial Class FRM_tinhthepdai
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuGradientPanel1 As Bunifu.Framework.UI.BunifuGradientPanel
-    Friend WithEvents btn_luu As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents txtkcx As TextBox
     Friend WithEvents cbbdkthepx As ComboBox
@@ -564,7 +533,6 @@ Partial Class FRM_tinhthepdai
     Friend WithEvents Label2 As Label
     Friend WithEvents txtAs1 As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents btn_tinh As Button
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents txtkcy As TextBox
     Friend WithEvents Label9 As Label

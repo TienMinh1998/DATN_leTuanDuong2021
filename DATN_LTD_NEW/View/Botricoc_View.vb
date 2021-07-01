@@ -18,6 +18,12 @@ Public Class Botricoc_View
 
     End Sub
 
+    Public Sub reloadCHieuSauChonMong()
+        txt_chieusauchonmong.Enabled = False
+        txt_chieusauchonmong.Text = DaiMong.Hm.ToString()
+    End Sub
+
+
     Private Sub btn_sct_Click(sender As Object, e As EventArgs) Handles btn_sct.Click
         Try
             txtPvl.Text = Tinh.Pvl().ToString ' sức chịu tải theo vật liệu

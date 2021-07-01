@@ -679,7 +679,6 @@ S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\D
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.FRM_NHAPLIEUXONG.resources
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.FRM_tinhthepdai.resources
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.RM_Kiemtradai.resources
-S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.Frm_BanVe.resources
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.Nhaplieucoc_view.resources
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.vatlieu_View.resources
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.FRM_dulieudai.resources
@@ -691,3 +690,4 @@ S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\D
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.vbproj.CopyComplete
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.exe
 S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.pdb
+S:\LeTuanDuong_1508861_61TH1\FILE_MaNguonChuongTrinhHoanThien\DATN_LTD_NEW\obj\Debug\DATN_LTD_NEW.vbprojAssemblyReference.cache
