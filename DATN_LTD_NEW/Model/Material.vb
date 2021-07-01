@@ -97,10 +97,10 @@ Public Class Material
         ' Chọn bê tông 
         Select Case code_1
             Case 0 ' B20
-                Me.Rb = 11500
-                Me.Rbt = 900
-                Me.Eb = 27000000
-                Me.Tenbetong = "B20"
+                Me._rb = 11500
+                Me._rbt = 900
+                Me._eb = 27000000
+                Me._tenbetong = "B20"
             Case 1 ' B25
                 Me.Rb = 14500
                 Me.Rbt = 1050

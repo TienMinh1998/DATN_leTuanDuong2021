@@ -48,7 +48,7 @@ Public Class vatlieu_View
         ' Hiện Bê tông lên
         txtRb.Text = vlbt.Rb.ToString
         txtRbt.Text = vlbt.Rbt.ToString
-        txtEb.Text = vlbt.Es.ToString
+        txtEb.Text = vlbt.Eb.ToString
     End Sub
     Private Sub cbb_thep_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbb_thep.SelectedIndexChanged
         Code_2 = Convert.ToByte(cbb_thep.SelectedIndex)
@@ -71,12 +71,30 @@ Public Class vatlieu_View
             MyDataBase.vatlieu_coc = New Material(Code_1, Code_2)
             lb_betong_coc.Text = vatlieu_coc.Tenbetong
             lb_thep_coc.Text = vatlieu_coc.Tenthep
+            Coc.Betong = MyDataBase.vatlieu_coc.Tenbetong
+            Coc.Rb = MyDataBase.vatlieu_coc.Rb
+            Coc.Rbt = MyDataBase.vatlieu_coc.Rbt
+            Coc.Eb = MyDataBase.vatlieu_coc.Eb
+            Coc.Thep = MyDataBase.vatlieu_coc.Tenthep
+            Coc.Rs = MyDataBase.vatlieu_coc.Rs
+            Coc.Rsc = MyDataBase.vatlieu_coc.Rsc
+            Coc.Es = MyDataBase.vatlieu_coc.Es
+
         End If
         ' Chọn vật liệu bê tông cho đài
         If Rb_dai.Checked = True Then
             MyDataBase.vatlieu_dai = New Material(Code_1, Code_2)
             lb_betong_dai.Text = vatlieu_dai.Tenbetong
             lb_thep_dai.Text = vatlieu_dai.Tenthep
+
+            DaiMong.Betong = MyDataBase.vatlieu_dai.Tenbetong
+            DaiMong.Rb = MyDataBase.vatlieu_dai.Rb
+            DaiMong.Rbt = MyDataBase.vatlieu_dai.Rbt
+            DaiMong.Eb = MyDataBase.vatlieu_dai.Eb
+            DaiMong.Thep = MyDataBase.vatlieu_dai.Tenthep
+            DaiMong.Rs = MyDataBase.vatlieu_dai.Rs
+            DaiMong.Rsc = MyDataBase.vatlieu_dai.Rsc
+            DaiMong.Es = MyDataBase.vatlieu_dai.Es
         End If
         ' Chọn cho cả 2 :
         If Rb_both.Checked = True Then
@@ -87,11 +105,46 @@ Public Class vatlieu_View
 
             lb_betong_dai.Text = vatlieu_dai.Tenbetong
             lb_thep_dai.Text = vatlieu_dai.Tenthep
-        End If
 
+            Coc.Betong = MyDataBase.vatlieu_coc.Tenbetong
+            Coc.Rb = MyDataBase.vatlieu_coc.Rb
+            Coc.Rbt = MyDataBase.vatlieu_coc.Rbt
+            Coc.Eb = MyDataBase.vatlieu_coc.Eb
+            Coc.Thep = MyDataBase.vatlieu_coc.Tenthep
+            Coc.Rs = MyDataBase.vatlieu_coc.Rs
+            Coc.Rsc = MyDataBase.vatlieu_coc.Rsc
+            Coc.Es = MyDataBase.vatlieu_coc.Es
+
+            DaiMong.Betong = MyDataBase.vatlieu_coc.Tenbetong
+            DaiMong.Rb = MyDataBase.vatlieu_coc.Rb
+            DaiMong.Rbt = MyDataBase.vatlieu_coc.Rbt
+            DaiMong.Eb = MyDataBase.vatlieu_coc.Eb
+            DaiMong.Thep = MyDataBase.vatlieu_coc.Tenthep
+            DaiMong.Rs = MyDataBase.vatlieu_coc.Rs
+            DaiMong.Rsc = MyDataBase.vatlieu_coc.Rsc
+            DaiMong.Es = MyDataBase.vatlieu_coc.Es
+
+        End If
+        If lb_betong_coc.Text <> "NULL" And lb_betong_dai.Text <> "NULL" Then
+            Dim a As DialogResult = MessageBox.Show("Chọn Vật Liệu Thành Công, Bạn có muốn chọn lại không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            If a = DialogResult.Yes Then
+            Else
+
+            End If
+
+
+        End If
     End Sub
 
-    Private Sub btn_dong_Click(sender As Object, e As EventArgs) Handles btn_dong.Click
+    Private Sub btn_dong_Click(sender As Object, e As EventArgs)
         Me.Close()
+    End Sub
+
+    Private Sub btn_trovediachat_Click(sender As Object, e As EventArgs) Handles btn_trovediachat.Click
+        Form1.Instance.OpenForm(diachat_view.Instance)
+    End Sub
+
+    Private Sub btn_tieptheo_Click(sender As Object, e As EventArgs) Handles btn_tieptheo.Click
+        Form1.Instance.OpenForm(FRM_dulieudai.Instance)
     End Sub
 End Class

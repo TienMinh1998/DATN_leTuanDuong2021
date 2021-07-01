@@ -1,0 +1,16 @@
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\DataGriview.exe.config
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\DataGriview.exe
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\DataGriview.pdb
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\DataGriview.xml
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\Bunifu.Core.dll
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.vbprojAssemblyReference.cache
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.Form1.resources
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.Resources.resources
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.vbproj.GenerateResource.cache
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.vbproj.CoreCompileInputs.cache
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.vbproj.CopyComplete
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.exe
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.xml
+E:\DATN_2021\DATN_LTD_NEW\DataGriview\obj\Debug\DataGriview.pdb

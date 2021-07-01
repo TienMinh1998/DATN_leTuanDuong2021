@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class vatlieu_View
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,8 @@ Partial Class vatlieu_View
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(vatlieu_View))
         Me.txtRbt = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.cbb_thep = New System.Windows.Forms.ComboBox()
@@ -69,8 +68,10 @@ Partial Class vatlieu_View
         Me.Rb_both = New System.Windows.Forms.RadioButton()
         Me.Rb_dai = New System.Windows.Forms.RadioButton()
         Me.Rb_coc = New System.Windows.Forms.RadioButton()
-        Me.btn_dong = New System.Windows.Forms.Button()
+        Me.btn_trovediachat = New Guna.UI2.WinForms.Guna2ImageButton()
+        Me.btn_tieptheo = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.btn_Xacnhan = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.Pn_tieuDe.SuspendLayout()
@@ -79,6 +80,7 @@ Partial Class vatlieu_View
         Me.Guna2Panel2.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtRbt
@@ -270,7 +272,7 @@ Partial Class vatlieu_View
         Me.GroupBox1.Controls.Add(Me.txtRb)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 80)
+        Me.GroupBox1.Location = New System.Drawing.Point(299, 101)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(203, 195)
         Me.GroupBox1.TabIndex = 10
@@ -308,7 +310,7 @@ Partial Class vatlieu_View
         Me.GroupBox2.Controls.Add(Me.Label13)
         Me.GroupBox2.Controls.Add(Me.Label12)
         Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 284)
+        Me.GroupBox2.Location = New System.Drawing.Point(299, 305)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(203, 154)
         Me.GroupBox2.TabIndex = 11
@@ -318,22 +320,24 @@ Partial Class vatlieu_View
         'Pn_tieuDe
         '
         Me.Pn_tieuDe.BackColor = System.Drawing.Color.DodgerBlue
+        Me.Pn_tieuDe.Controls.Add(Me.btn_trovediachat)
+        Me.Pn_tieuDe.Controls.Add(Me.btn_tieptheo)
         Me.Pn_tieuDe.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Pn_tieuDe.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Pn_tieuDe.FillColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(219, Byte), Integer))
-        Me.Pn_tieuDe.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Pn_tieuDe.FillColor = System.Drawing.Color.Teal
+        Me.Pn_tieuDe.FillColor2 = System.Drawing.Color.Transparent
         Me.Pn_tieuDe.Location = New System.Drawing.Point(0, 0)
         Me.Pn_tieuDe.Name = "Pn_tieuDe"
         Me.Pn_tieuDe.ShadowDecoration.Parent = Me.Pn_tieuDe
-        Me.Pn_tieuDe.Size = New System.Drawing.Size(629, 74)
+        Me.Pn_tieuDe.Size = New System.Drawing.Size(1215, 74)
         Me.Pn_tieuDe.TabIndex = 13
         '
         'Guna2HtmlLabel1
         '
         Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(202, 23)
+        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.White
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(24, 26)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(286, 27)
         Me.Guna2HtmlLabel1.TabIndex = 0
@@ -345,7 +349,7 @@ Partial Class vatlieu_View
         Me.Guna2Panel1.Controls.Add(Me.Label22)
         Me.Guna2Panel1.Controls.Add(Me.lb_betong_dai)
         Me.Guna2Panel1.Controls.Add(Me.Panel1)
-        Me.Guna2Panel1.Location = New System.Drawing.Point(229, 336)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(513, 357)
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
         Me.Guna2Panel1.Size = New System.Drawing.Size(393, 102)
@@ -369,9 +373,9 @@ Partial Class vatlieu_View
         Me.Label22.ForeColor = System.Drawing.Color.Maroon
         Me.Label22.Location = New System.Drawing.Point(158, 59)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(40, 16)
+        Me.Label22.Size = New System.Drawing.Size(13, 16)
         Me.Label22.TabIndex = 1
-        Me.Label22.Text = "AND"
+        Me.Label22.Text = "-"
         '
         'lb_betong_dai
         '
@@ -411,7 +415,7 @@ Partial Class vatlieu_View
         Me.Guna2Panel2.Controls.Add(Me.Label21)
         Me.Guna2Panel2.Controls.Add(Me.lb_betong_coc)
         Me.Guna2Panel2.Controls.Add(Me.Panel2)
-        Me.Guna2Panel2.Location = New System.Drawing.Point(229, 221)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(511, 242)
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
         Me.Guna2Panel2.Size = New System.Drawing.Size(393, 110)
@@ -435,9 +439,9 @@ Partial Class vatlieu_View
         Me.Label21.ForeColor = System.Drawing.Color.Maroon
         Me.Label21.Location = New System.Drawing.Point(158, 53)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(40, 16)
+        Me.Label21.Size = New System.Drawing.Size(13, 16)
         Me.Label21.TabIndex = 1
-        Me.Label21.Text = "AND"
+        Me.Label21.Text = "-"
         '
         'lb_betong_coc
         '
@@ -480,9 +484,9 @@ Partial Class vatlieu_View
         Me.GroupBox3.Controls.Add(Me.Rb_both)
         Me.GroupBox3.Controls.Add(Me.Rb_dai)
         Me.GroupBox3.Controls.Add(Me.Rb_coc)
-        Me.GroupBox3.Location = New System.Drawing.Point(221, 89)
+        Me.GroupBox3.Location = New System.Drawing.Point(508, 101)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(393, 125)
+        Me.GroupBox3.Size = New System.Drawing.Size(393, 134)
         Me.GroupBox3.TabIndex = 15
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Chọn Cấu Kiện"
@@ -528,10 +532,12 @@ Partial Class vatlieu_View
         'Rb_both
         '
         Me.Rb_both.AutoSize = True
+        Me.Rb_both.Checked = True
         Me.Rb_both.Location = New System.Drawing.Point(253, 26)
         Me.Rb_both.Name = "Rb_both"
         Me.Rb_both.Size = New System.Drawing.Size(47, 17)
         Me.Rb_both.TabIndex = 0
+        Me.Rb_both.TabStop = True
         Me.Rb_both.Text = "Cả 2"
         Me.Rb_both.UseVisualStyleBackColor = True
         '
@@ -548,34 +554,53 @@ Partial Class vatlieu_View
         'Rb_coc
         '
         Me.Rb_coc.AutoSize = True
-        Me.Rb_coc.Checked = True
         Me.Rb_coc.Location = New System.Drawing.Point(39, 26)
         Me.Rb_coc.Name = "Rb_coc"
         Me.Rb_coc.Size = New System.Drawing.Size(44, 17)
         Me.Rb_coc.TabIndex = 0
-        Me.Rb_coc.TabStop = True
         Me.Rb_coc.Text = "Cọc"
         Me.Rb_coc.UseVisualStyleBackColor = True
         '
-        'btn_dong
+        'btn_trovediachat
         '
-        Me.btn_dong.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btn_dong.Image = Global.DATN_LTD_NEW.My.Resources.Resources.Button_Delete_icon
-        Me.btn_dong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_dong.Location = New System.Drawing.Point(302, 453)
-        Me.btn_dong.Name = "btn_dong"
-        Me.btn_dong.Size = New System.Drawing.Size(86, 35)
-        Me.btn_dong.TabIndex = 12
-        Me.btn_dong.Text = "Đóng"
-        Me.btn_dong.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_dong.UseVisualStyleBackColor = True
+        Me.btn_trovediachat.CheckedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btn_trovediachat.CheckedState.Parent = Me.btn_trovediachat
+        Me.btn_trovediachat.HoverState.ImageSize = New System.Drawing.Size(32, 32)
+        Me.btn_trovediachat.HoverState.Parent = Me.btn_trovediachat
+        Me.btn_trovediachat.Image = Global.DATN_LTD_NEW.My.Resources.Resources.Button_Previous_icon
+        Me.btn_trovediachat.ImageRotate = 0!
+        Me.btn_trovediachat.ImageSize = New System.Drawing.Size(32, 32)
+        Me.btn_trovediachat.Location = New System.Drawing.Point(1096, 15)
+        Me.btn_trovediachat.Name = "btn_trovediachat"
+        Me.btn_trovediachat.PressedState.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal
+        Me.btn_trovediachat.PressedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btn_trovediachat.PressedState.Parent = Me.btn_trovediachat
+        Me.btn_trovediachat.Size = New System.Drawing.Size(57, 42)
+        Me.btn_trovediachat.TabIndex = 17
+        '
+        'btn_tieptheo
+        '
+        Me.btn_tieptheo.CheckedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btn_tieptheo.CheckedState.Parent = Me.btn_tieptheo
+        Me.btn_tieptheo.HoverState.ImageSize = New System.Drawing.Size(32, 32)
+        Me.btn_tieptheo.HoverState.Parent = Me.btn_tieptheo
+        Me.btn_tieptheo.Image = Global.DATN_LTD_NEW.My.Resources.Resources.Button_Next_icon
+        Me.btn_tieptheo.ImageRotate = 0!
+        Me.btn_tieptheo.ImageSize = New System.Drawing.Size(32, 32)
+        Me.btn_tieptheo.Location = New System.Drawing.Point(1147, 15)
+        Me.btn_tieptheo.Name = "btn_tieptheo"
+        Me.btn_tieptheo.PressedState.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal
+        Me.btn_tieptheo.PressedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btn_tieptheo.PressedState.Parent = Me.btn_tieptheo
+        Me.btn_tieptheo.Size = New System.Drawing.Size(57, 42)
+        Me.btn_tieptheo.TabIndex = 17
         '
         'btn_Xacnhan
         '
         Me.btn_Xacnhan.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btn_Xacnhan.Image = CType(resources.GetObject("btn_Xacnhan.Image"), System.Drawing.Image)
+        Me.btn_Xacnhan.Image = Global.DATN_LTD_NEW.My.Resources.Resources.Done_icon
         Me.btn_Xacnhan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Xacnhan.Location = New System.Drawing.Point(207, 453)
+        Me.btn_Xacnhan.Location = New System.Drawing.Point(821, 467)
         Me.btn_Xacnhan.Name = "btn_Xacnhan"
         Me.btn_Xacnhan.Size = New System.Drawing.Size(86, 35)
         Me.btn_Xacnhan.TabIndex = 12
@@ -583,19 +608,30 @@ Partial Class vatlieu_View
         Me.btn_Xacnhan.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btn_Xacnhan.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Image = Global.DATN_LTD_NEW.My.Resources.Resources._3d
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1215, 518)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 16
+        Me.PictureBox1.TabStop = False
+        '
         'vatlieu_View
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(629, 494)
+        Me.ClientSize = New System.Drawing.Size(1215, 518)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Guna2Panel2)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Pn_tieuDe)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.btn_dong)
         Me.Controls.Add(Me.btn_Xacnhan)
         Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "vatlieu_View"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Chọn vật liệu cho cấu kiện"
@@ -615,6 +651,7 @@ Partial Class vatlieu_View
         Me.Panel2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -664,7 +701,9 @@ Partial Class vatlieu_View
     Friend WithEvents lb_betong_dai As Label
     Friend WithEvents lb_thep_coc As Label
     Friend WithEvents lb_betong_coc As Label
-    Friend WithEvents btn_dong As Button
     Friend WithEvents Label22 As Label
     Friend WithEvents Label21 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btn_trovediachat As Guna.UI2.WinForms.Guna2ImageButton
+    Friend WithEvents btn_tieptheo As Guna.UI2.WinForms.Guna2ImageButton
 End Class
